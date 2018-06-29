@@ -1,0 +1,42 @@
+<style>
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .name{
+    margin: 10px 0px 0px 550px;
+  }
+  .namebox{
+    margin: 10px 0px 0px 600px;
+  }
+  #survey-form{
+  }
+  select{
+    width:10%;  
+  }
+</style>
+<form id="survey-form"><h1 id="title">SURVEY FORM</h1>
+  <p id="description">Let us know how we can improve freeCodeCamp <p>
+
+  <div id="name-label" class="name">Firstname:</div>
+  <input class="namebox" type="text" name="firstname"required placeholder="Enter your Name"><br>
+  <div id="name-label" class="name">Surname:</div>
+  <input class="namebox" type="text" name="surname"required placeholder="Enter your Surname"><br>
+  <div id="email-label" class="name">Email:</div>
+  <input class="namebox" type="email" name="email" required placeholder="Enter your Email">
+  <div id="number-label" class="name">Age:</div>
+  <input class="namebox" type="number" name="age" min="1" required placeholder="Enter your Age">
+  <div class="name"> What do you think about this design?</div>
+  <select class="namebox" id="dropdown">
+    <option disabled selected value>Select an option</option>
+    <option value="Good">Good</option>
+    <option value="Bad">Bad</option></select><br>
+  <div class="name">Write your suggestions</div>
+  <textarea id="comments" class="namebox" style="height:50px; resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea><br>
+  <button class="namebox" id="submit" type="submit">Submit</button>
+  </form>
+
+
+  
